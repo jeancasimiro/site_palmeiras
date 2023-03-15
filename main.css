@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+header h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, input, textarea {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(0, 100, 55);
+    color: #fff
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px; 
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container ul {
+    justify-content: end;
+}
+
+.evolution img {
+    height: 90px;
+}
+
+.evolution li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    color: rgb(0, 100, 55);
+    margin-bottom: 20px;
+}
+
+section p {
+    color: rgb(24, 50, 51);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.palestra {
+    height: 350px;
+    margin-right: 32px;
+}
+
+.logo {
+    height: 100px;
+    margin-right: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 140px;
+}
+
+section h3 {
+    color: rgb(3, 58, 80);
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: rgb(0, 100, 55);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(44, 97, 99);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(0, 100, 55);
+}
+
+footer {
+    background-color: rgb(0, 100, 55);
+    color: #fff;
+    padding: 16px 0;
+}
